@@ -1,0 +1,70 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Contenedor principal */
+.i-body h1 {
+    text-align: center;
+    color: #e95b5b;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.i-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Estilo para las tarjetas de noticias */
+.i-body li {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.i-body li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.i-body h2 {
+    color: #00abe0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.i-body p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.i-body strong {
+    color: #e95b5b;
+}
+
+/* Estilo para el botón */
+.i-body button {
+    background-color: transparent;
+    border: 2px solid #ff0000;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.i-body button:hover {
+    background-color: #ff0000;
+    color: white;
+}

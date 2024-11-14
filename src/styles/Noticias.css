@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.noticias-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.noticias-list,
+.noticias-form {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.noticias-list h2,
+.noticias-form h2 {
+    color: #202557;
+    margin-bottom: 15px;
+}
+
+.noticias-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.noticias-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.noticias-list h3 {
+    margin: 0;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.noticias-list button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.updateBtn{
+    background-color: rgb(14, 175, 228);
+    color: white;
+}
+
+.updateBtn:hover{
+    background-color: rgb(0, 128, 171);
+}
+
+.delete-btn {
+    background-color: #e95b5b;
+}
+
+.delete-btn:hover {
+    background-color: #c94e4e;
+}
+
+.noticias-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.noticias-form input,
+.noticias-form textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.noticias-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+.noticias-form button {
+    background-color: transparent;
+    border: 2px solid #54ca36;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.noticias-form button:hover {
+    background-color: #00e04e;
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}

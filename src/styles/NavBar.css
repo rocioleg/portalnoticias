@@ -1,0 +1,28 @@
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.barra{
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.form1{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+li{
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnSearch{
+    background-color: rgb(46, 137, 235);
+    color: white;
+}
+
+.btnSearch:hover{
+    background-color: rgb(12, 72, 137);
+}
